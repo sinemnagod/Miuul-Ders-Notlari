@@ -1,0 +1,11 @@
+<!-- yorum -->
+ 
+Bazı semantik HTML örnekleri:
+- <header>: sayfanın başlık, logo, menü gibi içerikleri
+- <footer>: sayfanın en alt kısmı
+- <nav>: sayfanın gezinme menüsü
+- <main>: ana içeriği barındırır
+- <article>: bağımsız bir makale veya içerikleri
+- <section>: belirli bir bölüm
+- <aside>: sayfa içeriğinden bağımsız yan içerik (mesela blog sayfalarında yan tarafta bulunan
+   sık görüntülenenler listesi)
