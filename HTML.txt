@@ -69,3 +69,18 @@ DROPDOWN MENÜLERİ:
 
 - WhatsApp linki ekleme:
    <a href="https://wa.me/+9032143232121?Size nasıl yardımcı olabilirim?"> WhatsApp Hattımız </a>
+
+-------------------------------------------------------------------------------------------------
+
+FAVICON: tablerdeki küçük simge, genellikle 16x16 veya 32x32px olurlar. <head> kısmının içine <link> ile
+         eklenir.
+
+         <link rel="icon" href="" type="">
+
+IFRAME: bir sayfada başka bir sayfanın içeriğini görmek için kullanılır. <iframe></iframe>
+
+MAP: sayfaya map ile konum eklemek için kullanılır. "maps.ie" sitesine giderek istenilen haritayı oluşturup
+      kodunu alabiliriz. map eklemek için de <iframe> kullanılır.
+
+-------------------------------------------------------------------------------------------------
+
