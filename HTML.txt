@@ -60,7 +60,7 @@ DROPDOWN MENÜLERİ:
 -------------------------------------------------------------------------------------------------
 
 ! Emoji eklemek için hex kodlarını araştırabilirsin ve değişik fontlar kullanmak için Google Fonts'a
- bakabilirsin. Font'un linkini <head> kısmına eklemen gerekir. sonra da css'de font-family olarak eklemen
+ bakabilirsin. Font'un linkini <head> kısmına eklemen gerekir, sonra da css'de font-family olarak eklemen
  lazım.
 
 -------------------------------------------------------------------------------------------------
@@ -99,3 +99,49 @@ MAP: sayfaya map ile konum eklemek için kullanılır. "maps.ie" sitesine gidere
       <dt> Terim 2 </dt>
       <dd> Açıklama 2 </dd>
    </dl>
+
+!!! <ol type=""> listenin tipini belirler. Örneğin type="a" yazarsak a,b,c,d diye devam eder. type="i" veya
+      I yazarsak roma rakamlarıyla devam eder. Default olarak sayıları gösterir.
+
+-------------------------------------------------------------------------------------------------
+
+VIDEO VE AUDIO EKLEMEK:
+
+Video:
+   <video width="100% height="250" controls>
+      <source src="../xyz.mp4" type="video/mp4">   //eğer bunu bulamazsa ogg'u oynatır
+      <source src="../xyz.ogg" type="video/ogg">
+   </video>
+
+Audio:
+   <audio width="100% height="250" controls>
+      <source src="../xyz.mp3" type="audio/mp4">
+      <source src="../xyz.ogg" type="audio/ogg">
+   </audio>
+
+-------------------------------------------------------------------------------------------------
+
+TABLO OLUŞTURMA:
+- <table border="" width="">
+- <thead>
+- <tbody>
+- <tfoot>
+- <tr>: table row
+- <th>: table head
+- <td>: table data
+
+   <tfoot>
+      <tr>
+         <th colspan="4"> &copy; Bütün haklar saklıdır. </th> 
+      </tr>
+   </tfoot>
+
+   //tablonun sonuna tüm hücreleri birleştirerek yazılan yazı
+
+   ---
+
+   <colgroup>
+      <col span="1">
+   </colgroup>
+
+   //tablonun ilk sütununu seçer. Buraya özel style ekleyebiliriz.
