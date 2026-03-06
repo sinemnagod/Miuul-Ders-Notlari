@@ -28,8 +28,10 @@ Bazı semantik HTML örnekleri:
 ! CHECK OUT FONT AWESOME FOR ICONS TO ADD TO YOUR WEBSITE !
 
 -------------------------------------------------------------------------------------------------
+
 <noscript> Your website does not support JS </noscript>
 If a browser doesn't support js it gives a warning, good to add inside body.
+
 -------------------------------------------------------------------------------------------------
 
 DROPDOWN MENÜLERİ: 
@@ -56,9 +58,11 @@ DROPDOWN MENÜLERİ:
       </select>
 
 -------------------------------------------------------------------------------------------------
+
 ! Emoji eklemek için hex kodlarını araştırabilirsin ve değişik fontlar kullanmak için Google Fonts'a
  bakabilirsin. Font'un linkini <head> kısmına eklemen gerekir. sonra da css'de font-family olarak eklemen
  lazım.
+
 -------------------------------------------------------------------------------------------------
 
 - Email linki ekleme:
@@ -84,3 +88,14 @@ MAP: sayfaya map ile konum eklemek için kullanılır. "maps.ie" sitesine gidere
 
 -------------------------------------------------------------------------------------------------
 
+<ul> ve <ol>'e ek olarak <dl> (definition list) vardır. Listenin her bir elemanının bir de açıklaması bulunur.
+<dt> --> definition term
+<dd> --> definition description
+
+   <dl>
+      <dt> Terim 1 </dt>
+      <dd> Açıklama 1 </dd>
+
+      <dt> Terim 2 </dt>
+      <dd> Açıklama 2 </dd>
+   </dl>
