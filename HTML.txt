@@ -9,3 +9,25 @@ Bazı semantik HTML örnekleri:
 - <section>: belirli bir bölüm
 - <aside>: sayfa içeriğinden bağımsız yan içerik (mesela blog sayfalarında yan tarafta bulunan
    sık görüntülenenler listesi)
+- <p>: paragraf
+- <h1>,<h6>: başlık
+- <hr>: horizontal, sayfaya uzun bir çizgi çeker
+- <br>: break, boşluk bırakır
+- <mark>: yazıyı fosforlu kalemle işaretlemiş gibi gösterir
+- <ins>: yazının altını çizer, <u> da aynısı
+- <code>: kod
+- <sup>: üslü sayı   10<sup>5</sup>
+- <sub>: altlı sayı  log<sub>2</sub>n
+- <del>: yazının üstünü çizer indirimlerdeki gibi   <del>100</del>TL 99TL
+- <a href="">: link eklemek için
+- <img src="" alt="" title="" >: resim eklemek için
+   ! Eğer bir resme link eklemek istiyorsak --> <a> <img> </a>
+
+-------------------------------------------------------------------------------------------------
+
+! CHECK OUT FONT AWESOME FOR ICONS TO ADD TO YOUR WEBSITE !
+
+-------------------------------------------------------------------------------------------------
+<noscript> Your website does not support JS </noscript>
+If a browser doesn't support js it gives a warning, good to add inside body.
+-------------------------------------------------------------------------------------------------
