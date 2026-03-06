@@ -31,3 +31,41 @@ Bazı semantik HTML örnekleri:
 <noscript> Your website does not support JS </noscript>
 If a browser doesn't support js it gives a warning, good to add inside body.
 -------------------------------------------------------------------------------------------------
+
+DROPDOWN MENÜLERİ: 
+1- Datalist: yazmaya başladığımız anda bize öneriler sunar, önerilerden seçim yaparız
+      
+      <label for="miuul_backend"> Choose a backend technology: </label>
+      <input list="miuul_list" name="backend">
+      <datalist id="miuul_list">
+         <option value="Java SE">
+         <option value="Java EE">
+         <option value="Web Servis">
+         <option value="Spring Boot">
+      </datalist>
+
+1- Select: yazma yeri yoktur, direkt açılan seçeneklerden seçeriz
+
+      <label for="miuul_frontend> Choose a frontend technology: </label>
+      <select name="miuul_frontend" id="miuul_frontend">
+         <option value="0"> Seçiniz </option>
+         <option value="1"> HTML </option>
+         <option value="2"> CSS </option>
+         <option value="3"> JS </option>
+         <option value="4"> React JS </option>
+      </select>
+
+-------------------------------------------------------------------------------------------------
+! Emoji eklemek için hex kodlarını araştırabilirsin ve değişik fontlar kullanmak için Google Fonts'a
+ bakabilirsin. Font'un linkini <head> kısmına eklemen gerekir. sonra da css'de font-family olarak eklemen
+ lazım.
+-------------------------------------------------------------------------------------------------
+
+- Email linki ekleme:
+   <a href="mailto:xyz@gmail.com"> Send Email </a>
+
+- Tel no ekleme:
+   <a href="tel:+9012324213"> Call Us </a>
+
+- WhatsApp linki ekleme:
+   <a href="https://wa.me/+9032143232121?Size nasıl yardımcı olabilirim?"> WhatsApp Hattımız </a>
