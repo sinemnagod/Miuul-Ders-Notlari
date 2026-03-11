@@ -22,6 +22,7 @@ Bazı semantik HTML örnekleri:
 - <a href="">: link eklemek için
 - <img src="" alt="" title="" >: resim eklemek için
    ! Eğer bir resme link eklemek istiyorsak --> <a> <img> </a>
+- <hero>: slider eklemek istediğimizde kullanırız
 
 -------------------------------------------------------------------------------------------------
 
