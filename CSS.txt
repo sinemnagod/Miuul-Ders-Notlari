@@ -1,1 +1,34 @@
 /* yorum */
+
+-------------------------------------------------------------------------------------------------
+
+1- inline css
+    <p style=""></p>
+
+2- internal css
+    html'in içinde <style> tagi ile
+
+3- external css
+    ayrı bir css dosyası oluşturulur
+    <link rel="stylesheet">
+
+-------------------------------------------------------------------------------------------------
+
+CSS SELECTORS
+1- element selector
+    p{
+
+    }
+
+2- class selector 
+    .title {
+
+    }
+
+3- id selector
+    #header {
+
+    }
+
+-------------------------------------------------------------------------------------------------
+

@@ -2,3 +2,27 @@
 /*
     multiple yorum
 */
+
+-------------------------------------------------------------------------------------------------
+
+Scope: süslü parantezler içindeki blok, parantezlerin içindeki değerlere parantez dışından var ile 
+    ulaşılabilir, let ve const ile ulaşılamaz.
+Temporal Dead Zone: 
+Hoisting: eğer bir veriyi tanımlamadan önce kullanmaya çalışırken hata alırız.
+
+-------------------------------------------------------------------------------------------------
+
+Veri tipleri - 
+primitive: string, number, boolean, undefined, null, symbol, BigInt
+non-primitive: 
+reference: object(key-value), array, function
+
+immutable, mutable
+
+template literals
+
+-------------------------------------------------------------------------------------------------
+
+OPERATÖRLER
+
+== vs === --> with == you check is the values are equal, with === you check if the value and the type equal.
